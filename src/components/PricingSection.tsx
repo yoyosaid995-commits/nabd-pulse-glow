@@ -4,7 +4,7 @@ const plans = [
   {
     name: "Starter",
     nameAr: "الأساسية",
-    price: "1,500",
+    price: "200",
     period: "شهرياً",
     features: [
       "إدارة منصتين تواصل اجتماعي",
@@ -17,7 +17,7 @@ const plans = [
   {
     name: "Growth",
     nameAr: "النمو",
-    price: "3,500",
+    price: "650",
     period: "شهرياً",
     features: [
       "إدارة 4 منصات تواصل اجتماعي",
@@ -32,7 +32,7 @@ const plans = [
   {
     name: "Pro",
     nameAr: "الاحترافية",
-    price: "6,500",
+    price: "1200",
     period: "شهرياً",
     features: [
       "إدارة جميع المنصات",
@@ -81,7 +81,7 @@ const PricingSection = () => {
                 <h3 className="text-xl font-bold mb-3">{plan.nameAr}</h3>
                 <div className="flex items-baseline justify-center gap-1">
                   <span className="text-4xl font-black">{plan.price}</span>
-                  <span className="text-sm text-muted-foreground">ر.س / {plan.period}</span>
+                  <span className="text-sm text-muted-foreground">د / {plan.period}</span>
                 </div>
               </div>
               <ul className="space-y-3 mb-8">

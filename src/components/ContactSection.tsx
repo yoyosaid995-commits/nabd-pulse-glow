@@ -52,7 +52,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-bold mb-1">اتصل بنا</h4>
                   <p className="text-muted-foreground text-sm" dir="ltr">
-                  </p>
+                    +972598404533</p>
                 </div>
               </div>
             </div>
@@ -62,9 +62,9 @@ const ContactSection = () => {
                   <Mail size={20} className="text-primary-foreground" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">
+                  <h4 className="font-bold mb-1">البريد الإلكتروني
                   </h4>
-                  <p className="text-muted-foreground text-sm">info@nabd.sa</p>
+                  <p className="text-muted-foreground text-sm">nabdmarkitng@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">الموقع</h4>
-                  <p className="text-muted-foreground text-sm">المملكة العربية السعودية</p>
+                  <p className="text-muted-foreground text-sm">Palestine-Ramallah</p>
                 </div>
               </div>
             </div>
